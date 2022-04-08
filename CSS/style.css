@@ -1,0 +1,169 @@
+
+/* Global ======================
+*/ 
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Times New Roman', Times, serif;
+  background:linear-gradient(#7e459b,#b29ef8,#FABE48);
+  
+}
+
+/* Header ======================
+*/
+
+.caixa-banner {
+   background-image: url(..//img/banner-mayara.jpg);
+   background-size: cover;
+   background-position: center;
+   height: 85vh;
+   color: white;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   text-align: center;
+
+}
+
+
+.titulo1 {
+   font-size: 2rem;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   text-shadow: 2px 2px rgb(24, 8, 24);
+}
+
+.subtitulo1 {
+   font-size: 20px;
+   color:#FABE48;
+   font-weight: bold;
+   text-shadow: 2px 2px rgb(14, 6, 14);
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.link-sobre {
+   text-decoration: none;
+   font-size: 18px;
+   text-transform:uppercase;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: #a719df;
+   font-weight: bold;
+   background-color: rgb(253, 249, 253);
+   padding: 8px 20px ;
+   border-radius: 15px;
+   text-shadow: 2px 2px rgb(194, 167, 194);
+  
+}
+
+.titulo-sobre {
+   margin: 20px;
+   margin-top: 50px;
+   margin-bottom: 50px ;
+   text-align: center;
+   color: rgb(70, 13, 70);
+   text-shadow: 2px 2px rgb(194, 167, 194);
+   font-size: 50px;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+/* Sobre ======================
+*/
+
+.caixa-sobre {
+   display: flex;
+   justify-content: space-around;
+   font-size: 18px;
+
+}
+
+.lado1 {
+   width: 40%;
+   justify-content: space-between;
+}
+
+.lado1 p {
+   font-family:Verdana, sans-serif;
+   font-size: 19px;
+   text-align: justify;
+}
+.link-portfolio {
+  text-decoration: none;
+  font-size: 18px ;
+  text-transform: uppercase;
+  color: white;
+  background-color: rgb(190, 44, 190);
+  padding: 8px 20px;
+  border-radius: 20px; 
+  margin-top: 5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
+/*habilidades-------------*/
+
+.lado2{
+  width: 20%;
+  font-size: 20px;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 1.8;
+
+}
+
+h3{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color:#FABE48;
+  text-shadow: 2px 2px rgb(24, 8, 24);
+}
+
+li{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(70, 13, 70);
+}
+/*links-------------------*/
+.caixa-links{
+  margin:0 auto;
+  margin-top: 120px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+   padding: 1rem;
+
+}
+
+.links{
+  background-color: rgb(93,22,126);
+  width:180px;
+  height:180px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 2rem;
+
+}
+
+.caixa-links p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 8rem;
+  
+}
+.icone{
+  width:80px;
+  height:80px;
+  margin-top: 35px;
+}
+
+.rodape{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  color: rgb(70, 13, 70);
+  text-align: center;
+ 
+  padding: 3rem 0;
+}
